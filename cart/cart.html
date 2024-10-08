@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+        <nav>
+            <a href="shortshome.html">Back to Home</a>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Size</th> <!-- Added Size column -->
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="cart-body">
+                <!-- Cart items will be populated here -->
+            </tbody>
+        </table>
+        <div class="total">
+            <h2>Total: $<span id="total-amount">0.00</span></h2>
+        </div>
+        <button onclick="clearCart()">Clear Cart</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 DONE Clothing</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
