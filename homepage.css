@@ -1,0 +1,11 @@
+header{
+    width: 85%;
+    margin: auto;
+}
+
+header div{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
