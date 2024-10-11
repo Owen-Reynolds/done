@@ -1,74 +1,40 @@
+header{
+    font-family: cursive;
+    width: 85%;
+    margin: auto;
+}
+
+header div{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    background-color: rgb(167, 112, 167);
+    color: rgb(0, 255, 0);
+    
 }
-
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Padding between images */
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 255, 0);
+    transition: all ease-in-out 0.5s;
 }
+.grid img:hover{
+    width: 85%;
 
-nav ul {
-    list-style: none;
-    padding: 0;
 }
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-h2 {
-    color: #35424a;
-}
-
-.product {
-    background: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 5px;
-    padding: 15px;
-    margin: 15px 0;
-    text-align: center;
-}
-
-.product img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-button {
-    background: #35424a;
-    color: #ffffff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #2c3e50;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
+img {
     width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ccc; /* Optional: add a border around images */
 }
