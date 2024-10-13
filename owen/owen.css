@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #DFC5FE;
+}
+
+header{
+
+}
+
+.subHeader{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowImages{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.imageContainer img{
+    width: 57vh;
+    height: auto;
+}
+
+.infoContainer p{
+    display: flex;
+    justify-content: flex-start;
+    margin:auto;
+    font-size: larger;
+}
+
+#price{
+    margin-top: 2%;
+}
