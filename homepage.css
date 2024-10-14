@@ -1,11 +1,33 @@
-header{
+body{
+    background-color: #DFC5FE;
     width: 85%;
     margin: auto;
 }
 
-header div{
-
+header{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+}
+
+.headerLogo{
+
+}
+
+.headerLogo img{
+    width: 20%;
+}
+
+.headerText{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.headerIcons{
+    display: flex;
+    gap: 10px;
+}
+
+.headerIcons img{
+    width: 7%;
 }

@@ -8,7 +8,7 @@ header{
 }
 
 .subHeader{
-    width: 80%;
+    width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -17,13 +17,13 @@ header{
 .rowImages{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 85%;
     margin: auto;
     align-items: center;
 }
 
 .imageContainer img{
-    width: 57vh;
+    width: 99%;
     height: auto;
 }
 
