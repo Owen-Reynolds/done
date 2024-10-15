@@ -5,7 +5,6 @@ header{
 }
 
 header div{
-
     display: flex;
     justify-content: space-between;
     
@@ -16,25 +15,41 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 100px;
-    background-color: rgb(167, 112, 167);
-    color: rgb(0, 255, 0);
-    
+    background-color: #DFC5FE;
+    color: rgb(12, 53, 12);
+
+}
+.pants1{
+    font-size: 40px;
+    text-align: left;
+}
+.pants2{
+    font-size: 40px;
+    text-align: center;
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px; /* Padding between images */
+    grid-template-columns: repeat(3, 500px);
+    gap: 70px; 
     object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid rgb(0, 255, 0);
-    transition: all ease-in-out 0.5s;
 }
-.grid img:hover{
-    width: 85%;
-
+.grid2 {
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    gap: 70px;
+    object-fit: cover;
+}
+.grid3 {
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    gap: 70px; 
+    object-fit: cover;
 }
 img {
+    border-radius: 20px;
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    border: 1px solid #ccc; /* Optional: add a border around images */
+    height: auto; 
+    border: 1px solid #ccc; 
 }
