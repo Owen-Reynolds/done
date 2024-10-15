@@ -22,6 +22,10 @@ header{
     align-items: center;
 }
 
+.imageContainer a{
+    text-decoration: none;
+}
+
 .imageContainer img{
     width: 99%;
     height: auto;
@@ -31,7 +35,8 @@ header{
     display: flex;
     justify-content: flex-start;
     margin:auto;
-    font-size: larger;
+    font-size: x-large;
+    margin-bottom: 3%;
 }
 
 #price{

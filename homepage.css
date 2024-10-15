@@ -1,10 +1,37 @@
 body{
     background-color: #DFC5FE;
     width: 100%;
-    margin: 0;
+    margin: auto;
 }
 
 header{
-    height: 10vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
     border-bottom: 2px solid #2C2C54;
+}
+
+.logoNav a img{
+    height: 18vh;
+    padding-left: 30%;
+}
+
+.textNav{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textNav a{
+    text-decoration: none;
+    font-size: 4vw;
+    font-family: 'Tangerine', serif;
+}
+
+.accountNav a img{
+    height: 10vh;
+    padding-right: 30%;
 }
