@@ -33,11 +33,13 @@ header{
    
 }
 
-.textNav a:last-child{
-    padding-right: 0px;
+.accountNav{
+display: flex;
+justify-content: center;
+gap: 40px;
 }
 
-.accountNav a img{
-    height: 10vh;
+.accountNav a i{
+
     padding-right: 30%;
 }
