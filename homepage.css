@@ -5,7 +5,7 @@ body{
 }
 
 header{
-    width: 100%;
+    width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -22,13 +22,19 @@ header{
 .textNav{
     width: 30%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
 }
 
 .textNav a{
     text-decoration: none;
     font-size: 4vw;
-    font-family: 'Tangerine', serif;
+    font-family: "Bellefair", serif;
+   
+}
+
+.textNav a:last-child{
+    padding-right: 0px;
 }
 
 .accountNav a img{
