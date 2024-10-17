@@ -4,29 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/df4ce74369.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cart.css">
 </head>
 <body>
     <header>
-        <h1>Your Shopping Cart</h1>
-        <nav>
-            <a href="shortshome.html">Back to Home</a>
-        </nav>
+        <div class="logoNav">
+            <a href="">
+                <img src="testLogo.png" alt="">
+            </a>
+        </div>
+        <div class="textNav">
+            <a href="">Shirts</a>
+            <a href="">Hoodies</a>
+            <a href="">Pants</a>
+        </div>
+        <div class="accountNav">
+            <a href="">
+                <i class="fa-solid fa-user fa-3x"></i>
+            </a>
+            <a href="cart.html">
+                <i class="fa-solid fa-cart-shopping fa-3x"></i>
+            </a>
+        </div>
     </header>
+    <br>
+    <br>
+    <br>
     <main>
         <table>
-            <thead>
-                <tr>
+            <!-- Header for Cart Items -->
+            <thead class="cartHeader">
+                <tr class="cartItem">
                     <th>Item</th>
-                    <th>Size</th> <!-- Added Size column -->
+                    <th>Size</th>
                     <th>Quantity</th>
                     <th>Price</th>
                     <th>Total</th>
-                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody id="cart-body">
                 <!-- Cart items will be populated here -->
+                
             </tbody>
         </table>
         <div class="total">

@@ -29,6 +29,7 @@ header{
     text-decoration: none;
     font-size: 4vw;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
 }
 
 .accountNav{
@@ -37,6 +38,19 @@ justify-content: center;
 gap: 40px;
 }
 
-.accountNav a{
-    text-decoration: none;
+table{
+    width: 70%;
+    margin: auto;
+    
+}
+
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartItem th{
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2C2C54;
 }
