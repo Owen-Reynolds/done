@@ -19,37 +19,35 @@ body {
     color: rgb(12, 53, 12);
 
 }
-.pants1{
-    font-size: 40px;
-    text-align: left;
+.PantsHeader{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
-.pants2{
-    font-size: 40px;
-    text-align: center;
+
+.Images{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    align-items: center;
 }
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 500px);
-    gap: 70px; 
-    object-fit: cover;
+
+.imageContainer img{
+    border-radius: 12px;
+    width: 99%;
+    height: auto;
 }
-.grid2 {
-    margin-top: 15%;
-    display: grid;
-    grid-template-columns: repeat(3, 500px);
-    gap: 70px;
-    object-fit: cover;
+
+.infoContainer p{
+    display: flex;
+    justify-content: flex-start;
+    margin:auto;
+    font-size: x-large;
+    margin-bottom: 3%;
 }
-.grid3 {
-    margin-top: 15%;
-    display: grid;
-    grid-template-columns: repeat(3, 500px);
-    gap: 70px; 
-    object-fit: cover;
-}
-img {
-    border-radius: 20px;
-    width: 100%;
-    height: auto; 
-    border: 1px solid #ccc; 
+
+.price{
+    margin-top: 2%;
 }
