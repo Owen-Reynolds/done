@@ -30,7 +30,7 @@ header{
     font-size: 4vw;
     color: #2C2C54;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 2px 2px 5px #FEA3C4;
+    text-shadow: 2px 2px 5px #1b1b3a;
 }
 
 .accountNav{
@@ -43,7 +43,7 @@ color: #2C2C54;
 .accountNav a{
     text-decoration: none;
     color: inherit;
-    text-shadow: 3px 3px 5px #FEA3C4;
+    text-shadow: 3px 3px 5px #1b1b3a;
 }
 
 .slideShow{
@@ -89,3 +89,17 @@ img.displaySlide{
     right: 0;
 }
 
+.collection{
+    width: 85%;
+    margin: auto;
+}
+
+.borderBreak{
+    border-bottom: 2px solid #2C2C54;
+}
+
+.collectionItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
