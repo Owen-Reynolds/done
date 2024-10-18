@@ -45,3 +45,47 @@ color: #2C2C54;
     color: inherit;
     text-shadow: 3px 3px 5px #FEA3C4;
 }
+
+.slideShow{
+    width: 85%;
+    margin: auto;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.slider img{
+    width: 100%;
+    display: none;
+    height: 60vh;
+}
+
+img.displaySlide{
+    display: flex;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: lightgray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.previous{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
