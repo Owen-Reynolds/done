@@ -94,6 +94,50 @@ color: #2C2C54;
 
 .sizeButtons{
     display: flex;
-    align-items: center;
-    
+    gap: 10px;
+}
+
+.sizeButtons button{
+    background: none;
+    color:#1b1b3a;
+    width: 20%;
+    height: 5vh;
+    border-color: #2C2C54;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+/*Class List for a selected Button*/
+.sizeButtons button.selected{
+    background-color: #1b1b3a;
+    color: #DFC5FE;
+    border-color: #FF6F61;
+}
+
+.addtoCart{
+    display: flex;
+}
+
+.addtoCart button{
+    background: none;
+    background-color: #FF6F61;
+    color: #1b1b3a;
+    width: 100%;
+    height: 5vh;
+    border-color: #1b1b3a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+}
+
+.addtoCart button:hover{
+    background-color: #1b1b3a;
+    color: #FF6F61;
+    cursor: pointer;
+}
+
+.productDescription{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1b1b3a;
+    font-size: 1vw;
 }
