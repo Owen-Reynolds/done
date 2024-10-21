@@ -115,9 +115,12 @@ color: #2C2C54;
     font-size: x-large;
     margin-bottom: 3%;
     color: #1b1b3a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #price{
     margin-top: 2%;
-    color: #1b1b3a;
+    color: #FF6F61;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
