@@ -4,35 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="/homepage/homepage.css">
     <script src="https://kit.fontawesome.com/df4ce74369.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="logoNav">
-            <a href="">
+            <a href="/homepage/homepage.html">
                 <img src="testLogo.png" alt="">
             </a>
         </div>
         <div class="textNav">
-            <a href="">Shirts</a>
-            <a href="">Hoodies</a>
-            <a href="">Pants</a>
+            <a href="/enoch/enoch.html">Shirts</a>
+            <a href="/owen/owen.html">Hoodies</a>
+            <a href="/nolan/pants.html">Pants</a>
         </div>
         <div class="accountNav">
-            <a href="">
+            <a href="/account/account.html">
                 <i class="fa-solid fa-user fa-3x"></i>
             </a>
-            <a href="">
+            <a href="/cart/cart.html">
                 <i class="fa-solid fa-cart-shopping fa-3x"></i>
             </a>
         </div>
     </header>
+    <br>
     <section class="slideShow">
-        
+        <div class="slider">
+            <div class="slides">
+                <a href="/enoch/enoch.html">
+                    <img class="slide" src="/homepage/image1.jpeg" alt="Image 1">
+                </a>
+                <a href="/owen/owen.html">
+                    <img class="slide" src="/homepage/image2.jpeg" alt="Image 2">
+                </a>
+                <a href="/nolan/pants.html">
+                    <img class="slide" src="/homepage/image3.jpeg" alt="Image 3">
+                </a>
+            </div>
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
+        <script src="slideshow.js"></script>
+    </section>
+    <br>
+    <section class="collection">
+        <div class="borderBreak"></div>
+        <div class="collectionItems">
+            <div class="shirtImage">
+                <a href="/enoch/enoch.html">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <div class="sweatshirtImage">
+                <a href="/owen/owen.html">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <div class="pantsImage">
+                <a href="/nolan/pants.html">
+                    <img src="" alt="">
+                </a>
+            </div>
+        </div>
     </section>
 </body>
 </html>

@@ -1,10 +1,49 @@
 body{
-    margin: 0;
+    margin: auto;
     background-color: #DFC5FE;
+    width: 100%;
 }
 
 header{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    border-bottom: 2px solid #2C2C54;
+}
 
+.logoNav a img{
+    height: 18vh;
+}
+
+.textNav{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.textNav a{
+    text-decoration: none;
+    font-size: 4vw;
+    color: #2C2C54;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 5px #1b1b3a;
+}
+
+.accountNav{
+display: flex;
+justify-content: center;
+gap: 40px;
+color: #2C2C54;
+}
+
+.accountNav a{
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 3px 3px 5px #1b1b3a;
 }
 
 .subHeader{
@@ -12,6 +51,44 @@ header{
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.subHeader p{
+    font-size: 2vw;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sort button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.subHeaderBorder{
+    width: 85%;
+    margin: auto;
+    border-bottom: 2px solid #1b1b3a;
+    margin-bottom: 1%;
 }
 
 .rowImages{
@@ -27,18 +104,23 @@ header{
 }
 
 .imageContainer img{
-    width: 99%;
+    width: 100%;
     height: auto;
 }
 
 .infoContainer p{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     margin:auto;
     font-size: x-large;
     margin-bottom: 3%;
+    color: #1b1b3a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #price{
     margin-top: 2%;
+    color: #FF6F61;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

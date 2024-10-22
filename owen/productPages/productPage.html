@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="productPage.css">
+    <script src="https://kit.fontawesome.com/df4ce74369.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logoNav">
+            <a href="/homepage/homepage.html">
+                <img src="testLogo.png" alt="">
+            </a>
+        </div>
+        <div class="textNav">
+            <a href="/enoch/enoch.html">Shirts</a>
+            <a href="/owen/owen.html">Hoodies</a>
+            <a href="/nolan/pants.html">Pants</a>
+        </div>
+        <div class="accountNav">
+            <a href="/account/account.html">
+                <i class="fa-solid fa-user fa-3x"></i>
+            </a>
+            <a href="/cart/cart.html">
+                <i class="fa-solid fa-cart-shopping fa-3x"></i>
+            </a>
+        </div>
+    </header>
+    <br>
+    <br>
+    <section class="mainContent">
+        <div class="imagesContainer">
+            <div class="productImage">
+                <img src="/owen/images/doneStarsOrange.jpeg" id="elementImage">
+            </div>
+        </div>
+        <div class="textContainer">
+            <div class="productTitle">
+                <h1>Stars Orange Hoodie</h1>
+            </div>
+            <br>
+            <div class="price">
+                <h1>$29.99</h1>
+            </div>
+            <br>
+            <br>
+            <div class="sizeButtons">
+                <!-- when clicked a selectSize function is called that passes a size function-->
+                <button id="small" onclick="selectSize('small')">Small</button>
+                <button id="medium" onclick="selectSize('medium')">Medium</button>
+                <button id="large" onclick="selectSize('large')">Large</button>
+                <button id="x-large" onclick="selectSize('x-large')">X-Large</button>
+                <button id="xx-large" onclick="selectSize('xx-large')">XX-Large</button>
+            </div>
+            <br>
+            <br>    
+            <br>
+            <div class="addtoCart">
+                <button>Add to Cart</button>
+            </div>
+            <br>
+            <br>
+            <div class="productDescription">
+                <ul>
+                    <li>100% Cotton</li>
+                    <li>Premium Soft Feel</li>
+                    <li>Will Shrink Slightly</li>
+                    <li>Order Size Up for Baggy Fit</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <script src="productPage.js"></script>
+</body>
+</html>
