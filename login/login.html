@@ -1,33 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
-</head>
-<body>
-    <section class="sideContent">
-        <img src="" alt="">
-    </section>
-    <section class="mainContent">
-        <div class="login">
-            <h1>
-                Create an Account
-            </h1>
-            <label>
-                Enter Email:
-            </label>
-            <input type="Email" id="emailInput">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="/homepage/homepage.css">
+        <script src="https://kit.fontawesome.com/df4ce74369.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <form>
             <br>
-            <label>
-                Password: 
-            </label>
-            <input type="Password" id="passwordInput">
+            <label>Username:</label>
+            <input type = "text" id="username" name = "name">
             <br>
-            <button id="submitButton">Submit</button>
-            <script src="login.js"></script>
-        </div>
-    </section>
-</body>
+            <br>
+            <label>Password:</label>
+            <input type= "text" id = "password" name = "password">
+            <input type="button" value = "submit"> 
+        </form>
+    </body>
 </html>

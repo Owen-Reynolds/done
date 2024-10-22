@@ -1,23 +1,49 @@
-header{
-    font-family: cursive;
-    width: 85%;
+body{
+    background-color: #DFC5FE;
+    width: 100%;
     margin: auto;
 }
 
-header div{
+header{
+    width: 85%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    height: 20vh;
+    border-bottom: 2px solid #2C2C54;
 }
-body {
+
+.logoNav a img{
+    height: 18vh;
+}
+
+.textNav{
+    width: 30%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 100px;
-    background-color: #DFC5FE;
-    color: rgb(12, 53, 12);
+    gap: 100px;
+}
 
+.textNav a{
+    text-decoration: none;
+    font-size: 4vw;
+    color: #2C2C54;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 5px #1b1b3a;
+}
+
+.accountNav{
+display: flex;
+justify-content: center;
+gap: 40px;
+color: #2C2C54;
+}
+
+.accountNav a{
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 3px 3px 5px #1b1b3a;
 }
 .PantsHeader{
     width: 85%;
@@ -25,7 +51,10 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+.pantsimages{
+    width: 20vw;
+    height: 30vh;
+    }
 .Images{
     display: flex;
     justify-content: space-between;
@@ -36,7 +65,6 @@ body {
 
 .imageContainer img{
     border-radius: 12px;
-    width: 99%;
     height: auto;
 }
 

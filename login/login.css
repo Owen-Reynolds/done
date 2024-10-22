@@ -1,17 +1,58 @@
 body{
+    background-color: #DFC5FE;
     width: 100%;
-    margin: 0;
+    margin: auto;
 }
 
-
-.sideContent{
+header{
+    width: 85%;
+    margin: auto;
     display: flex;
-    width: 40%;
-    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    border-bottom: 2px solid #2C2C54;
 }
 
-.mainContent{
-    display: flex;
-    width: 60%;
+.logoNav a img{
+    height: 18vh;
+}
 
+.textNav{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.textNav a{
+    text-decoration: none;
+    font-size: 4vw;
+    color: #2C2C54;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 5px #1b1b3a;
+}
+
+.accountNav{
+display: flex;
+justify-content: center;
+gap: 40px;
+color: #2C2C54;
+}
+
+.accountNav a{
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 3px 3px 5px #1b1b3a;
+}
+body{
+background-color: tan;
+}
+label{
+    background-color: burlywood;
+    font-size: 50px;
+}
+input{
+    background-color: beige;
+    font-size: 30px;
 }
