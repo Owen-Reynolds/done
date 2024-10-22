@@ -1,8 +1,6 @@
-
 const slides = document.querySelectorAll(".slides img");
 let slideIndex = 0;
 let intervalId = null;
-
 
 document.addEventListener("DOMContentLoaded", initializeSlider);
 
