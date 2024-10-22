@@ -32,3 +32,8 @@ function selectSize(size){
     // Since no buttons are selected anymore, selects the button that was clicked
     document.getElementById(size).classList.add('selected');
 }
+
+let productName = 
+function addItem(){
+
+}
