@@ -33,15 +33,21 @@ function selectSize(size){
     choosenSize = document.getElementById(size).classList.add('selected');
 }
 
+
 //Function to adds item 
 function addItem(){
     //Set the product Name
-    let productName = document.getElementById('productName').innerText;
+    let name = document.getElementById('productName').innerText;
     // Set the product Size
-    let productSize = document.querySelector('.sizeButtons button.selected').innerText;
+    let size = document.querySelector('.sizeButtons button.selected').innerText;
     // Set the product Price
-    let productPrice = document.querySelector('.price h1').innerText;
-    localStorage.setItem("name", productName);
-    localStorage.setItem("size", productSize);
-    localStorage.setItem("price", productPrice);
+    let price = document.querySelector('.price h1').innerText;
+
+    localStorage.setItem('name', name);
+    localStorage.setItem('price', price);
+    localStorage.setItem('size', size);
 }
+
+
+
+
