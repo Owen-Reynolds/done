@@ -2,7 +2,7 @@ let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 // Function to add item to cart
 function addItem(name, price, size) {
-    const item = { name, size, price, quantity: 1 };
+    const item = {name, size, price, quantity: 1 };
     const existingItem = cart.find(i => i.name === name && i.size === size);
 
     if (existingItem) {
