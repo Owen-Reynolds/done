@@ -30,10 +30,18 @@ function selectSize(size){
         button.classList.remove('selected');
     })
     // Since no buttons are selected anymore, selects the button that was clicked
-    document.getElementById(size).classList.add('selected');
+    choosenSize = document.getElementById(size).classList.add('selected');
 }
 
-let productName = 
+//Function to adds item 
 function addItem(){
-
+    //Set the product Name
+    let productName = document.getElementById('productName').innerText;
+    // Set the product Size
+    let productSize = document.querySelector('.sizeButtons button.selected').innerText;
+    // Set the product Price
+    let productPrice = document.querySelector('.price h1').innerText;
+    localStorage.setItem("name", productName);
+    localStorage.setItem("size", productSize);
+    localStorage.setItem("price", productPrice);
 }
