@@ -37,7 +37,7 @@ header{
     display: flex;
     justify-content: center;
     gap: 40px;
-    color: #2C2C54;
+    color: #FF6F61;
 }
 
 .accountNav a{
@@ -104,7 +104,7 @@ img.displaySlide{
 .topPicks{
     font-size: 4vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #2C2C54;
+    color: #FF6F61;
     text-shadow: 2px 2px 5px #1b1b3a;
     margin: 0;
 }
