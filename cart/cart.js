@@ -1,13 +1,15 @@
 // Gets the passed cart and updates
 
+localStorage.clear();
+
 function renderCart(){
-    let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    let tbody = document.getElementById('cart-body');
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const tbody = document.getElementById('cart-body');
     tbody.innerHTML = ``;
-    let totalAmount = 0;
+    const totalAmount = 0;
 
     cart.forEach(item =>{
-        let row = document.createElement('tr');
+        const row = document.createElement('tr');
         row.innerHTML =`
         <td>${item.name}</td>
         <td>${item.size}</td>
