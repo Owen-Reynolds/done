@@ -8,7 +8,6 @@
     <script src="https://kit.fontawesome.com/df4ce74369.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <script src="productPage.js"></script>
     <header>
         <div class="logoNav">
             <a href="/homepage/homepage.html">
@@ -60,7 +59,9 @@
             <br>
 
             <div class="addtoCart">
-                <button onclick="addItem()">Add to Cart</button>
+                <button onclick="addItem(document.getElementById('productName').value, 
+                                         document.querySelector('.sizeButtons button.selected').value,
+                                         document.querySelector('.price h1').value)">Add to Cart</button>
             </div>
             
             <br>
@@ -76,5 +77,7 @@
         </div>
 
     </section>
+    <script src="productPage.js"></script>
+    <script src="/cart/script.js"></script>
 </body>
 </html>

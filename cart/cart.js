@@ -2,11 +2,7 @@
 // if not found then creates an empty array
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-let name = localStorage.getItem('name');
-let size = localStorage.getItem('size');
-let price = localStorage.getItem('price');
-
-function addItem(){
+function addItem(name, size, price){
     const item = {name, size, price, quantity:1};
     const existingItem = cart.find(i => i.name === name && i.size === size);
 

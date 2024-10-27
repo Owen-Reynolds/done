@@ -34,20 +34,4 @@ function selectSize(size){
 }
 
 
-//Function to adds item 
-function addItem(){
-    //Set the product Name
-    let name = document.getElementById('productName').innerText;
-    // Set the product Size
-    let size = document.querySelector('.sizeButtons button.selected').innerText;
-    // Set the product Price
-    let price = document.querySelector('.price h1').innerText;
-
-    localStorage.setItem('name', name);
-    localStorage.setItem('price', price);
-    localStorage.setItem('size', size);
-}
-
-
-
 
