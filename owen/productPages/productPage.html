@@ -42,7 +42,7 @@
             </div>
             <br>
             <div class="price">
-                <h1>$29.99</h1>
+                <h1 id="productPrice">$29.99</h1>
             </div>
             <br>
             <br>
@@ -59,9 +59,7 @@
             <br>
 
             <div class="addtoCart">
-                <button onclick="addItem(document.getElementById('productName').value, 
-                                         document.querySelector('.sizeButtons button.selected').value,
-                                         document.querySelector('.price h1').value)">Add to Cart</button>
+                <button onclick="addtoCart()">Add to Cart</button>
             </div>
             
             <br>
@@ -78,6 +76,5 @@
 
     </section>
     <script src="productPage.js"></script>
-    <script src="/cart/script.js"></script>
 </body>
 </html>

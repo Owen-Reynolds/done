@@ -30,8 +30,36 @@ function selectSize(size){
         button.classList.remove('selected');
     })
     // Since no buttons are selected anymore, selects the button that was clicked
-    choosenSize = document.getElementById(size).classList.add('selected');
+    document.getElementById(size).classList.add('selected');
+
+    window.chosenSize = size;
 }
 
+
+
+//Create functions that adds the item to the cart array that holds objects and add that cart to the localStorage
+
+function addtoCart(){
+    let name = document.getElementById('productName').textContent;
+    let price = document.getElementById('productPrice').textContent;
+
+    if(!window.chosenSize){
+        alert("Please select a size");
+        return;
+    }
+
+    let cart = JSON.parse(localStorage.getItem('cart'))|| [];
+    let exisitingItem = cart.find(item => item.name === name && item.size === window.chosenSize);
+
+    if(exisitingItem){
+        exisitingItem.quantity++;
+    }
+    else{
+        cart.push({name, price, size: window.chosenSize, quantity:1});
+    }   
+
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert("Item added to Cart");
+}
 
 
