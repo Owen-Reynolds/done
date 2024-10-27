@@ -46,19 +46,29 @@ color: #2C2C54;
     text-shadow: 3px 3px 5px #1b1b3a;
 }
 
-table{
+table {
     width: 70%;
+    border-collapse: separate;
+    border-spacing: 0 15px; /* 15px vertical space between rows */
     margin: auto;
-    
 }
 
-.cartItem{
-    display: flex;
-    justify-content: space-between;
-}
-
-.cartItem th{
-    font-size: 2vw;
+thead {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #2C2C54;
+    color: #FF6F61;
+    background-color: #1b1b3a
+}
+
+th, td {
+    padding: 2vh;
+    text-align: center;
+}
+
+tbody tr {
+    height:5vh;
+    color: #1b1b3a;
+}
+
+tbody td {
+    
 }
