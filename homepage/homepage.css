@@ -37,7 +37,7 @@ header{
     display: flex;
     justify-content: center;
     gap: 40px;
-    color: #FF6F61;
+    color: #1b1b3a;
 }
 
 .accountNav a{
@@ -121,4 +121,16 @@ img.displaySlide{
 
 .clothingImage a img{
     width: 20vw;
+}
+
+.aboutTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.aboutTitle h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4vw;
+    margin: 0;
 }
