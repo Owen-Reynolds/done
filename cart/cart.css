@@ -69,6 +69,22 @@ tbody tr {
     color: #1b1b3a;
 }
 
-tbody td {
-    
+.subCart{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+#clearCart{
+    height: 4vh;
+    width: 10vw;
+    background-color: #DFC5FE;
+}
+
+.checkout{
+    width: 70%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
 }

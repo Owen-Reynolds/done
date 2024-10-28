@@ -48,11 +48,12 @@
                 
             </tbody>
         </table>
-        <div class="total">
-            <h2>Total: $<span id="total-amount">0.00</span></h2>
+        <div class="subCart">
+            <h2 id="grantTotal">Total: $<span id="total-amount">0.00</span></h2>
+            <button id="clearCart" onclick="clearCart()">Clear Cart</button>
         </div>
-        <div class="clear">
-            <button onclick="clearCart()">Clear Cart</button>
+        <div class="checkout">
+            <button id="checkoutButton">Checkout</button>
         </div>
     </main>
     <script src="cart.js"></script>

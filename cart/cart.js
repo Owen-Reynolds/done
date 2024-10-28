@@ -42,5 +42,5 @@ document.addEventListener('DOMContentLoaded', renderCart);
 function clearCart(){
     localStorage.clear();
     cart = [];
-    
+    window.renderCart();
 }
