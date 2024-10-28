@@ -1,15 +1,22 @@
-//Clothing Image Change on Hover
+let productHolder = JSON.parse(localStorage.getItem('productHolder')) || [];
+
+let frontImage = productHolder[0].frontImage;
+let backImage = productHolder[0].backImage;
+let productText = productHolder[0].text;
+//Clothing Image Change on Hover    
 
 // Variable for the Image
-let image = document.getElementById("elementImage");
+let image = document.getElementById("elementImage")
+
+image.src = frontImage;
 
 // Event Listener that changes image source when hovered over by mouse
 image.addEventListener('mouseover', function(){
-    image.src = "/owen/images/doneStarsOrangeBack.jpeg";
+    image.src = backImage;
 });
 // Event Listeneter that change the image back after the mouse leaves
 image.addEventListener('mouseout', function(){
-    image.src = "/owen/images/doneStarsOrange.jpeg";
+    image.src = frontImage;
 });
 
 
