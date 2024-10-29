@@ -48,13 +48,13 @@ color: #2C2C54;
 .images{
     width: 33%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     
 }
 .images a img{
-    width: 33vw;
+   
+width: 33vw;
 
 }
-{
+
     
-}
