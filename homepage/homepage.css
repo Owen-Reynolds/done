@@ -142,12 +142,24 @@ img.displaySlide{
     margin: auto;
 }
 
-.aboutText{
-    width: 40%;
+.aboutText, .aboutImages, .aboutDesc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .aboutText p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2vw;
-    color: #1b1b3a;
+    font-size: 3vw;
+    color: #1b1b3a; 
+}
+
+.aboutDesc p{
+    
+    text-align: center;
+}
+
+.aboutImages img{
+    width: 15vw;
+    height: 40vh;
 }
