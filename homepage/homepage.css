@@ -109,6 +109,10 @@ img.displaySlide{
     margin: 0;
 }
 
+#resizeHoodie{
+  width: 30vw;
+}
+
 .borderBreak{
     border-bottom: 2px solid #2C2C54;
 }
@@ -155,7 +159,7 @@ img.displaySlide{
 }
 
 .aboutDesc p{
-    
+    width: 30%;
     text-align: center;
 }
 
