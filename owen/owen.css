@@ -46,51 +46,6 @@ color: #2C2C54;
     text-shadow: 3px 3px 5px #1b1b3a;
 }
 
-.subHeader{
-    width: 85%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.subHeader p{
-    font-size: 2vw;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.sort button{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2vw;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-}
-
-.down{
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-
-.subHeaderBorder{
-    width: 85%;
-    margin: auto;
-    border-bottom: 2px solid #1b1b3a;
-    margin-bottom: 1%;
-}
-
 .rowImages{
     display: flex;
     justify-content: space-between;
