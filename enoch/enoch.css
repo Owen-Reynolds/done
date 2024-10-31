@@ -1,60 +1,75 @@
-body{
-    background-color: #DFC5FE;
-    width: 100%;
-    margin: auto;
-}
 
-header{
-    width: 85%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 20vh;
-    border-bottom: 2px solid #2C2C54;
-}
+        body {
+            background-color: #DFC5FE;
+            width: 100%;
+            margin: auto;
+        }
 
-.logoNav a img{
-    height: 18vh;
-}
+        header {
+            width: 88.5%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 20vh;
+            border-bottom: 2px solid #2C2C54;
+        }
 
-.textNav{
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-}
+        .logoNav a img {
+            height: 18vh;
+        }
 
-.textNav a{
-    text-decoration: none;
-    font-size: 4vw;
-    color: #2C2C54;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 2px 2px 5px #1b1b3a;
-}
+        .textNav {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+        }
 
-.accountNav{
-display: flex;
-justify-content: center;
-gap: 40px;
-color: #2C2C54;
-}
+        .textNav a {
+            text-decoration: none;
+            font-size: 4vw;
+            color: #2C2C54;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-shadow: 2px 2px 5px #1b1b3a;
+        }
 
-.accountNav a{
-    text-decoration: none;
-    color: inherit;
-    text-shadow: 3px 3px 5px #1b1b3a;
-}
-.images{
-    width: 33%;
-    display: flex;
-    justify-content: center;
-    
-}
-.images a img{
-   
-width: 33vw;
+        .accountNav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            color: #2C2C54;
+        }
 
-}
+        .accountNav a {
+            text-decoration: none;
+            color: inherit;
+            text-shadow: 3px 3px 5px #1b1b3a;
+        }
 
-    
+        .images {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .images a img {
+            width: 29vw;
+        }
+
+        .Pricetag {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .RowContainer {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .Shirts {
+            width: 89%;
+            margin: auto;
+        }
