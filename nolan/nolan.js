@@ -7,6 +7,5 @@ function selectImage(frontImageUrl, backImageUrl, itemText, itemPrice){
     productHolder.push({frontImage: frontImageUrl, backImage: backImageUrl, text: itemText, price: itemPrice});
     // Set it inside of the imageHolder Key
     localStorage.setItem('productHolder', JSON.stringify(productHolder));
-    
 }
 
