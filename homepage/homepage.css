@@ -109,6 +109,10 @@ img.displaySlide{
     margin: 0;
 }
 
+#resizeShirt{
+    width: 21vw;
+}
+
 #resizeHoodie{
   width: 30vw;
 }
