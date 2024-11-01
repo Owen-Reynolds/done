@@ -141,3 +141,9 @@ color: #2C2C54;
     color: #1b1b3a;
     font-size: 1vw;
 }
+
+#alert{
+    display: none;
+    position: fixed;
+    
+}

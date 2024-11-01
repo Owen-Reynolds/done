@@ -50,6 +50,14 @@ function selectSize(size){
 
 
 
+function showAlert(){
+    document.getElementById('alert').style.display = "flex";
+}
+
+function closeAlert(){
+    document.getElementById('alert').style.display = "none";
+}
+
 //Create functions that adds the item to the cart array that holds objects and add that cart to the localStorage
 
 function addtoCart(){
@@ -72,7 +80,7 @@ function addtoCart(){
     }   
 
     localStorage.setItem('cart', JSON.stringify(cart));
-    alert("Item added to Cart");
+    showAlert();
 }
 
 
