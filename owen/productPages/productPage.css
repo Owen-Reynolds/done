@@ -142,8 +142,23 @@ color: #2C2C54;
     font-size: 1vw;
 }
 
+
+@keyframes smooth-appear {
+    to{
+        top: 20%;
+        opacity: 1;
+    }
+}
 #alert{
     display: none;
     position: fixed;
-    
+    width: 40%;
+    height: 40%;
+    top: 0%;
+    left: 30%;
+    color: blue;
+    background-color: grey;
+    z-index: 10;
+    opacity: 0;
+    animation: smooth-appear 1s ease forwards;
 }
