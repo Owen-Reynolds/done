@@ -145,20 +145,64 @@ color: #2C2C54;
 
 @keyframes smooth-appear {
     to{
-        top: 20%;
+        top: 10%;
         opacity: 1;
     }
 }
+
 #alert{
     display: none;
     position: fixed;
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 60%;
     top: 0%;
-    left: 30%;
-    color: blue;
-    background-color: grey;
+    left: 35%;
+    color: #1b1b3a;
+    border: solid 3px #1b1b3a;
+    background-color: #FF6F61;
     z-index: 10;
     opacity: 0;
     animation: smooth-appear 1s ease forwards;
+    border-radius: 3%;
+}
+
+.alertBox{
+    width: 100%;
+}
+
+.alertText{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.alertImage{
+    display: flex;
+    justify-content: center;
+}
+
+#cartElementImage{
+    width: 20vw;
+}
+
+.alertButtons{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alertButtons button{
+    background: none;
+    color:#1b1b3a;
+    height: 5vh;
+    border-color: #2C2C54;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.alertButtons button a{
+    text-decoration: none;
+    color: #1b1b3a;
 }

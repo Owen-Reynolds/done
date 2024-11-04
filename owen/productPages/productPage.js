@@ -48,10 +48,12 @@ function selectSize(size){
     window.chosenSize = size;
 }
 
-
+cartImage = document.getElementById("cartElementImage")
 
 function showAlert(){
     document.getElementById('alert').style.display = "flex";
+    cartImage.src = frontImage;
+    
 }
 
 function closeAlert(){
