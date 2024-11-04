@@ -108,6 +108,12 @@ color: #2C2C54;
     cursor: pointer;
 }
 
+.sizeButtons button:hover{
+    background-color: #1b1b3a;
+    color: #DFC5FE;
+    border-color: #FF6F61;
+}
+
 /*Class List for a selected Button*/
 .sizeButtons button.selected{
     background-color: #1b1b3a;
