@@ -171,3 +171,41 @@ img.displaySlide{
     width: 15vw;
     height: 40vh;
 }
+
+footer{
+    width: 85%;
+    margin: auto;
+    background-color: #1b1b3a;
+    height: 25vh;
+}
+
+.emailFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6F61;
+}
+
+.emailFooterText{
+    padding-left:3%;
+}
+.emailFooterText p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.emailFooterBox{
+    padding-right: 3%;
+}
+.emailFooterBox label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: larger;
+}
+
+.emailFooterBox button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #DFC5FE;
+    font-size: larger;
+}
