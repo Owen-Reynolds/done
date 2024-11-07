@@ -209,3 +209,10 @@ footer{
     background-color: #DFC5FE;
     font-size: larger;
 }
+
+.emailBox{
+    display: none;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}

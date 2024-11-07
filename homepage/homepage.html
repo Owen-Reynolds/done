@@ -110,14 +110,26 @@
                 <div class="emailFooterText">
                     <p>Join out Email List for the Latest Drops!</p>
                 </div>
-                <div class="emailFooterBox">
+                <div class="emailFooterBox" id="emailFooterBox">
                     <label for="emailFooterInput">Enter Email</label>
-                    <input type="text" name="emailFooterInput">
-                    <button>Submit</button>
+                    <input type="email" name="emailFooterInput" id="emailFooterInput">
+                    <button type="submit" onclick="emailList()">Submit</button>
                 </div>
-
             </div>
         </div>
     </footer>
+    <!--For the pop up on click of adding email-->
+
+    <section class="emailPopUp">
+        <div class="emailBox" id="validEmailBox">
+            <div class="validEmail">VALID</div>
+        </div>
+
+        <div class="emailBox" id="invalidEmailBox">
+            <div class="invalidEmail">INVALID</div>
+        </div>
+    </section>
+
+    <script src="emailList.js"></script>
 </body>
 </html>
