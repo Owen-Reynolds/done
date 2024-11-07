@@ -25,3 +25,7 @@ function closeEmail(){
     document.getElementById("").style.display = "none";
 }
 
+function closePopUp(){
+    document.getElementById("validEmailBox").style.display = "none";
+    document.getElementById("invalidEmailBox").style.display = "none";
+}
