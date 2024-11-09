@@ -289,7 +289,7 @@ footer{
 .aboutDone{
     width: 40%;
     float: left;
-    margin-right: 20%;
+    margin-right: 30%;
 }
 
 .donePara{
@@ -305,3 +305,25 @@ footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.contactUs{
+    display: flex;
+    flex-direction: row;
+}
+
+.listTitle{
+    font-size: 1.5vw;
+    color: #DFC5FE;
+}
+
+.listOwner{
+    font-size: 1vw;
+    list-style-type: none;
+    color: #DFC5FE;
+}
+
+.listOwner li{
+    font-size: 1vw;
+    color: #FF6F61;
+    text-decoration: underline;
+    margin-top: 3%;
+}
