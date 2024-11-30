@@ -289,7 +289,7 @@ footer{
 .aboutDone{
     width: 40%;
     float: left;
-    margin-right: 30%;
+    margin-right: 35%;
 }
 
 .donePara{
@@ -308,6 +308,15 @@ footer{
 .contactUs{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contactsBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
 }
 
 .listTitle{
@@ -319,6 +328,8 @@ footer{
     font-size: 1vw;
     list-style-type: none;
     color: #DFC5FE;
+    padding: 0;
+    margin: 0;
 }
 
 .listOwner li{
