@@ -45,3 +45,69 @@ header{
     color: inherit;
     text-shadow: 3px 3px 5px #1b1b3a;
 }
+
+.loginHeader{
+    display: flex;
+    justify-content: center;    
+}
+
+.loginHeader h1{
+    font-size: 3vw;
+    color: #2C2C54;
+}
+
+.loginBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    background-color: #FF6F61;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.inputBox label{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+    color: #1b1b3a;
+    margin-bottom: 1%;
+}
+
+.inputBox input{
+    height: 4vh;
+    font-size: 1.5vw;
+}
+
+.forgetPassword{
+    display: flex;
+    justify-content: center;
+}
+
+.loginButton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.loginButton button{
+    width: 200px;
+    height: 5vh;
+    background-color: #DFC5FE;
+    color: #1b1b3a;
+    font-size: 1.5vw;
+    border-color: #1b1b3a;
+    cursor: pointer;
+}
+
+.createAccount{
+    display: flex;
+    justify-content: center;
+}
