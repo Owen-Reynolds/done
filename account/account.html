@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="account.css">
     <script src="https://kit.fontawesome.com/df4ce74369.js" crossorigin="anonymous"></script>
+    <script src="account.js"></script>
 </head>
 <body>
     <header>
@@ -35,11 +36,11 @@
         <div class="loginBox">
             <div class="inputBox" id="email">
                 <label for="email">Email</label>
-                <input type="email" name="email">
+                <input type="email" name="email" id="emailInput">
             </div>
             <div class="inputBox" id="password">
                 <label for="password">Password</label>
-                <input type="password" name="password">
+                <input type="password" name="password" id="passwordInput">
             </div>
             <div class="forgetPassword">
                 <a href="">
@@ -47,7 +48,7 @@
                 </a>
             </div>
             <div class="loginButton">
-                <button type="Submit">Submit</button>
+                <button type="submit" onclick="login()">Submit</button>
             </div>
         </div>
         <div class="createAccount">
@@ -56,5 +57,6 @@
             </a>
         </div>
     </section>
+    
 </body>
 </html>
