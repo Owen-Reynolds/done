@@ -177,7 +177,8 @@ footer{
     width: 85%;
     margin: auto;
     background-color: #1b1b3a;
-    height: 25vh;
+    height: 30vh;
+    margin-bottom: 2%;
 }
 
 .emailFooter{
@@ -309,19 +310,20 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+
 }
 
 .contactsBox{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0 10px;
+    align-items: flex-start;
+    margin-right: 30px;
 }
 
 .listTitle{
     font-size: 1.5vw;
     color: #DFC5FE;
+    
 }
 
 .listOwner{
@@ -337,4 +339,5 @@ footer{
     color: #FF6F61;
     text-decoration: underline;
     margin-top: 3%;
+    text-align: center;
 }
