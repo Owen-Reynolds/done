@@ -1,0 +1,112 @@
+body{
+    background-color: #DFC5FE;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    border-bottom: 2px solid #2C2C54;
+}
+
+.logoNav a img{
+    height: 18vh;
+}
+
+.textNav{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.textNav a{
+    text-decoration: none;
+    font-size: 4vw;
+    color: #2C2C54;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 5px #1b1b3a;
+}
+
+.accountNav{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #1b1b3a;
+}
+
+.accountNav a{
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 3px 3px 5px #1b1b3a;
+}
+
+.createHeader{
+    display: flex;
+    justify-content: center;    
+}
+
+.createHeader h1{
+    font-size: 3vw;
+    color: #2C2C54;
+}
+
+.createBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    background-color: #FF6F61;
+    border-radius: 3%;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.inputBox label{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+    color: #1b1b3a;
+    margin-bottom: 1%;
+}
+
+.inputBox input{
+    height: 4vh;
+    font-size: 1.5vw;
+    border-radius: 3%; 
+}
+
+.createButton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.createButton button{
+    width: 200px;
+    height: 5vh;
+    background-color: #DFC5FE;
+    color: #1b1b3a;
+    font-size: 1.5vw;
+    border-color: #1b1b3a;
+    cursor: pointer;
+    border-radius: 3%;
+}
+
+.loginLink{
+    display: flex;
+    justify-content: center;
+}
