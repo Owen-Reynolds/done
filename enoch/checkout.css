@@ -1,1 +1,63 @@
+<<<<<<< Updated upstream
+=======
+*{
+    font-family: 'Poopins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    padding-bottom:70px;
+
+}
+
+.container form {
+    padding: 20px;
+    width: 700px;
+}
+
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.container form .row .col{
+    flex:1 1 250px;
+}
+
+.container form .row .col .title{ 
+font: size 20px;
+color: #333;
+padding-bottom: 5px;
+text-transform: uppercase;
+} 
+
+.container form .row .col .inputBox{
+    margin: 15px 0;
+
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 5px;
+  display: block;
+
+}
+
+.container form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc
+    padding:10px 15px
+    font-size: 15px;
+    text-tranform:none;
+}
+
+>>>>>>> Stashed changes
 
