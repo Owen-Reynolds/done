@@ -5,7 +5,10 @@ function emailList(){
 
 //If input has @ then shows valid html if not then 
 function checkEmail(emailInput){
-    if(emailInput.includes("@"))
+
+    let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    if(emailPattern.test(emailInput))
         document.getElementById("validEmailBox").style.display = "flex";
         
     else
