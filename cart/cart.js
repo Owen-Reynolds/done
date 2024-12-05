@@ -23,13 +23,13 @@ function renderCart() {
                 <td>${item.name}</td>
                 <td>${item.size}</td>
                 <td>${item.quantity}</td>
-                <td>$${itemPrice.toFixed(2)}</td> <!-- Corrected here -->
-                <td>$${(itemPrice * item.quantity).toFixed(2)}</td> <!-- Corrected here -->
+                <td>$${itemPrice.toFixed(2)}</td> 
+                <td>$${(itemPrice * item.quantity).toFixed(2)}</td> 
             `;
             // Add this row to the body of the table
             tbody.appendChild(row);
             // Calculate the total amount
-            totalAmount += itemPrice * item.quantity;
+            totalAmount += itemPrice * item.quantity * 1.07;
         });
     }
 
