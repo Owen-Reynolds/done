@@ -54,9 +54,5 @@ text-transform: uppercase;
     width: 100%;
     border:1px solid #ccc;
     padding:10px 15px;
-    font-size: 15px;
     text-tranform:none;
-}
-.col{
-    font-size: 40px;
 }
