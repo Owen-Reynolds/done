@@ -96,6 +96,10 @@ tbody tr {
     justify-content: center;
 }
 
+.checkout a{
+    width: 100%;
+}
+
 #checkoutButton{
     background: none;
     background-color: #FF6F61;
@@ -105,4 +109,5 @@ tbody tr {
     border-color: #1b1b3a;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.5vw;
+    cursor: pointer;
 }
