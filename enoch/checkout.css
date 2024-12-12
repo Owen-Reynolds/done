@@ -1,3 +1,45 @@
+header{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    border-bottom: 2px solid #2C2C54;
+}
+
+.logoNav a img{
+    height: 18vh;
+}
+
+.textNav{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.textNav a{
+    text-decoration: none;
+    font-size: 4vw;
+    color: #2C2C54;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 5px #1b1b3a;
+}
+
+.accountNav{
+display: flex;
+justify-content: center;
+gap: 40px;
+color: #2C2C54;
+}
+
+.accountNav a{
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 3px 3px 5px #1b1b3a;
+}
+
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -8,7 +50,10 @@
     text-transform: capitalize;
     transition: all 0.2s linear;
 }
-
+.h1{
+    margin-left: -1200px;
+    margin-bottom: 100px;
+}
 .container {
     display: flex;
     flex-direction: row;

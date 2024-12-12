@@ -48,20 +48,10 @@
         display: block;
     }
 
-    .container form .row .col .inputBox input {
-        width: 100%;
-        border: 1px solid #ccc;
-        padding: 10px 15px;
-        font-size: 15px;
-        text-transform: none;
-    }
-
-    .billing-section {
-        text-align: left;
-        margin-left: 0;
-    }
-
-    .payment-section {
-        text-align: left;
-        margin-left: auto;
-    }
+.container form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-tranform:none;
+}
