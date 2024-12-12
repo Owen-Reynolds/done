@@ -53,6 +53,8 @@ color: #2C2C54;
 .h1{
     margin-left: -1200px;
     margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
 }
 .container {
     display: flex;
