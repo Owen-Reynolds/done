@@ -56,7 +56,8 @@ table {
 thead {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #FF6F61;
-    background-color: #1b1b3a
+    background-color: #1b1b3a;
+    font-size:1.5vw ;
 }
 
 th, td {
