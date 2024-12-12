@@ -12,7 +12,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 25px 25px 70px 25px;
     min-height: 100vh;
@@ -57,10 +57,35 @@
     font-size: 15px;
 }
 .Main{
-    
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
 }
 .Sub{
-    display: flex;  
-    width: 50%;
+    flex: 1;
+   
+}
+body{
+    background-color: #DFC5FE;
+}
+ h1{
+    display: flex;
+    justify-content: center;
+}
 
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+.box{
+    flex: 1;
+    background-color: white;
+    display: inline-block;
+    background-color: white;
+    vertical-align: top;
+    float: left;
+    background-color: white;
 }
