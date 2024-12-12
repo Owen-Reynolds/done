@@ -160,6 +160,87 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footerBox">
+                <div class="emailFooter">
+                    <div class="emailFooterText">
+                        <p>Join our Email List for the Latest Drops!</p>
+                    </div>
+                    <div class="emailFooterBox" id="emailFooterBox">
+                        <label for="emailFooterInput">Enter Email</label>
+                        <input type="email" name="emailFooterInput" id="emailFooterInput">
+                        <button type="submit" onclick="emailList()">Submit</button>
+                    </div>
+                </div>
+            <div class="mainFooter">
+                <div class="aboutDone">
+                    <div class="donePara">
+                        <p>Done was created from the minds of 3 college students that wanted to
+                            bring their creative ideas to life through clothing. This project 
+                            has enhanced our web development skills as well as share our creative 
+                            minds on the clothing world.
+                        </p>
+                        <p>
+                            Done Clothing © 2024
+                        </p>
+                    </div>
+                </div>
+                <div class="contactUs">
+                    <div class="contactsBox" id="Enoch">
+                        <h3 class="listTitle">Enoch</h3>
+                        <ul class="listOwner">
+                            <a href="https://github.com/Enochfoye"><li>Github</li></a>
+                            <a href="https://www.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F"><li>LinkedIn</li></a>
+                            <a href="https://ashland.joinhandshake.com/profiles/52850549"><li>Handshake</li></a>
+                        </ul>
+                    </div>
+                    <div class="contactsBox" id="Owen">
+                        <h3 class="listTitle">Owen</h3>
+                        <ul class="listOwner">
+                            <a href="https://github.com/Owen-Reynolds"><li>Github</li></a>
+                            <a href="https://www.linkedin.com/in/owen-reynolds-b8870a293/"><li>LinkedIn</li></a>
+                            <a href="https://ashland.joinhandshake.com/profiles/52850437"><li>Handshake</li></a>
+                        </ul>
+                    </div>
+                    <div class="contactsBox" id="Nolan">
+                        <h3 class="listTitle">Nolan</h3>
+                        <ul class="listOwner">
+                            <a href="https://github.com/NolanKern25"><li>Github</li></a>
+                            <a href="https://www.linkedin.com/in/nolan-kern25/"><li>LinkedIn</li></a>
+                            <a href="https://ashland.joinhandshake.com/profiles/52850389"><li>Handshake</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+        <!--For the pop up on click of adding email-->
+
+    <section class="emailPopUp">
+        <div class="emailBox" id="validEmailBox">
+            <div class="emailBoxImage">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="emailBoxText">
+                <p>Email Added!</p>
+            </div>
+            <div class="emailBoxButton">
+                <button class="emailBoxClose" onclick="closePopUp()">Close</button>
+            </div>
+        </div>
+
+        <div class="emailBox" id="invalidEmailBox">
+            <div class="emailBoxImage">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="emailBoxText">
+                <p>Invalid Email!</p>
+            </div>
+            <div class="emailBoxButton">
+                <button class="emailBoxClose" onclick="closePopUp()">Close</button>
+            </div>
+        </div>
+    </section>
     <script src="owen.js"></script>
 </body>
 </html>
